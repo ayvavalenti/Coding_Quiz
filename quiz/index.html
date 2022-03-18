@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Web APIs Challenge</title>
+  <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+
+<body>
+    <!-- header -->
+    <header>
+        <h3 id="hs">View High Score</h3>
+        <h4 id="timer">Time:</h4>
+    </header>
+    <main>
+        <section class="header">
+            <h1 class="page-name">Coding Quiz Challenge</h1>
+                <p>Try to answer these code related questions within the time limit. For every incorrect answer, 10 seconds will be removed from the clock!</p>
+                <button class="btn">start quiz</button>
+        </section>
+        <section>
+            <!-- all questions found on https://www.javatpoint.com/javascript-mcq -->
+        <h2>Which one of the following also known as Conditional Expression:<span id="a1"></span></h2>
+        <br>
+            <form id="q1">      
+                <input type="radio" name="option" value="Alternative to if-else"> Alternative to if-else
+                <input type="radio" name="option" value="Switch statement"> Switch statment
+                <input type="radio" name="option" value="If-then-else statement"> If-then-else statement
+                <input type="radio" name="option" value="Immediate if"> Immediate if
+            </form>  
+            <button class="btn" onclick="submitAns1()">submit answer</button>
+            <!-- ans immediate if -->
+
+        <h2>In JavaScript, what is a block of statement?<span id="a2"></span></h2>
+        <br>
+            <form id="q2">
+                <input type="radio" name="option" value="Conditional block">Conditional block
+                <input type="radio" name="option" value="block that combines a number of statements into a single compound statement">block that combines a number of statements into a single compound statement
+                <input type="radio" name="option" value="both conditional block and a single statement">both conditional block and a single statement
+                <input type="radio" name="option" value="block that contains a single statement">block that contains a single statement
+            </form>
+            <button class="btn" onclick="submit ()">submit answer</button>
+            <!-- ans  block that combines a number of statements into a single compound statement -->
+
+        <h2> When interpreter encounters an empty statements, what it will do:<span id="a3"></span></h2>
+        <br>
+            <form id="q3">
+                <input type="radio" name="option" value="Shows a warning"> Shows a warning
+                <input type="radio" name="option" value="Throws an error">Throws an error
+                <input type="radio" name="option" value="Ignores the statements">Ignores the statements
+                <input type="radio" name="option" value="Prompts to complete the statement">Prompts to complete the statement
+            </form>
+            <button class="btn">submit answer</button>
+            <!-- ans Ignores the statements -->
+
+        <h2>The "function" and " var" are known as:<span id="a4"></span></h2>
+        <br>
+            <form id="q4">
+                <input type="radio" name="option" value="Declaration statements">Declaration statements
+                <input type="radio" name="option" value="Keywords">Keywords
+                <input type="radio" name="option" value="Data types">Data types
+                <input type="radio" name="option" value="Prototypes">Prototypes
+            </form>
+            <button class="btn">submit answer</button>
+            <!-- ans Declaration statements -->
+
+        <h2>Which of the following variables takes precedence over the others if the names are the same?<span id="a5"></span></h2>
+        <br>
+            <form id="q5">
+                <input type="radio" name="option" value="Global variable">Global variable
+                <input type="radio" name="option" value="The local element">The local element
+                <input type="radio" name="option" value="The two of the above">The two of the above
+                <input type="radio" name="option" value="None of the above">None of the above
+            </form>
+            <button class="btn">submit answer</button>
+             <!-- ans The local element -->
+
+        <h2>In the JavaScript, which one of the following is not considered as an error:<span id="a6"></span></h2>
+        <br>
+            <form id="q6">
+                <input type="radio" name="option" value="Missing of Bracket">Missing of Bracket
+                <input type="radio" name="option" value="Missing of semicolons">Missing of semicolons
+                <input type="radio" name="option" value="Syntax error">Syntax error
+                <input type="radio" name="option" value="Division by zero">Division by zero
+            </form>
+            <button class="btn">submit answer</button>
+            <!-- aNS Division by zero -->
+
+        <h2>Which one of the following is not a keyword:<span id="a7"></span></h2>
+        <br>
+            <form id="q7">
+                <input type="radio" name="option" value="with">with
+                <input type="radio" name="option" value="if">if
+                <input type="radio" name="option" value="debugger">debugger
+                <input type="radio" name="option" value="use strict">use strict
+            </form>
+            <button class="btn">submit answer</button>
+            <!-- ans use strict -->
+
+        <h2>What is the basic purpose of the "toLocateString()" method?<span id="a8"></span></h2>
+        <br>
+            <form id="q8">
+                <input type="radio" name="option" value="It returns a localised object representation">It returns a localised object representation
+                <input type="radio" name="option" value="It returns a localized string representation of the object">It returns a localized string representation of the object
+                <input type="radio" name="option" value="It return a local time in the string format">It return a local time in the string format
+                <input type="radio" name="option" value="It return a parsed string">It return a parsed string
+            </form>
+            <button class="btn">submit answer</button>
+            <!-- ans It returns a localized string representation of the object -->
+
+        <h2>A collection of elements of the same data type which may either in order or not, is called<span id="a9"></span></h2>
+        <br>
+            <form id="q9">
+                <input type="radio" name="option" value="String">String
+                <input type="radio" name="option" value="Serialized Object">Serialized Object
+                <input type="radio" name="option" value="Array">Array
+                <input type="radio" name="option" value="Object">Object
+
+            </form>
+            <button class="btn">submit answer</button>
+            <!-- ans Array -->
+        </section>
+    </main>
+
+    <script src="./assets/js/script.js"></script>
+</body>
+</html>
